@@ -19,14 +19,14 @@ class Messages {
 
     remove = (key) => this.messages.delete(key)
 
-    get = (key) => this.messages.get(key)
-
-    getAndReplace = (key, ...holders) => replaceHolders(this.messages.get(key) || 'message not found', ...holders)
+    get = (key, ...holders) => replaceHolders(this.messages.get(String(key)) || 'message not found', ...holders || [])
 
     addFromJson = (fullPath) => {
         const json = JSON.parse(readFileSync(fullPath, 'utf-8'))
         Object.keys(json).forEach((key) => this.add(key, json[key]))
     }
+
+    discordSender = (channel) => (key, ...holders) => channel.send(this.get(key, ...holders))
 
 }
 

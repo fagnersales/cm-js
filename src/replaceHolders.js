@@ -5,6 +5,7 @@ const replaceAllOcurrences = (message, holders, index = 1) => index > holders.le
 )
 
 const replaceHolders = (message, ...holders) => {
+    if (!holders) return message
     if (typeof message !== 'string') throw new Error("Parameter message is not a string")
     const invalidHolder = holders.find(holder => !['string', 'number'].includes(typeof holder))
     if (invalidHolder) throw new Error(`Invalid holder: ${invalidHolder}`)
