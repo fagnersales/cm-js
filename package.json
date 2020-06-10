@@ -1,20 +1,20 @@
 {
-  "name": "creative-methods-js",
+  "name": "cm-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Methods for maybe solve one of your problem!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fagnersales/creative-methods-js.git"
+    "url": "git+https://github.com/fagnersales/cm-js.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["methods", "simple", "string"],
+  "author": "fagnersales",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fagnersales/creative-methods-js/issues"
+    "url": "https://github.com/fagnersales/cm-js/issues"
   },
-  "homepage": "https://github.com/fagnersales/creative-methods-js#readme"
+  "homepage": "https://github.com/fagnersales/cm-js#readme"
 }
