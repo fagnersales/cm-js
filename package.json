@@ -1,6 +1,6 @@
 {
   "name": "@fagnersales/cm-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Methods for maybe solve one of your problem!",
   "main": "index.js",
   "scripts": {
