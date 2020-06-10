@@ -1,5 +1,5 @@
 {
-  "name": "cm-js",
+  "name": "@fagnersales/cm-js",
   "version": "1.0.0",
   "description": "Methods for maybe solve one of your problem!",
   "main": "index.js",
