@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/fagnersales/cm-js.git"
   },
-  "keywords": ["methods", "simple", "string"],
+  "keywords": [
+    "methods",
+    "simple",
+    "string"
+  ],
   "author": "fagnersales",
   "license": "MIT",
   "bugs": {
