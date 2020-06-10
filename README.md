@@ -1,4 +1,4 @@
-# You also can use me as a library and just run in your project!
+# Methods for solve one of your problems!
 
 ### Install me using the command:
 ```shell
