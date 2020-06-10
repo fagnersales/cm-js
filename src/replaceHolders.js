@@ -9,6 +9,7 @@ const replaceHolders = (message, ...holders) => {
     const invalidHolder = holders.find(holder => !['string', 'number'].includes(typeof holder))
     if (invalidHolder) throw new Error(`Invalid holder: ${invalidHolder}`)
     return replaceAllOcurrences(message, holders)
+
 }
 
 module.exports = replaceHolders

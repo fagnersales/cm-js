@@ -20,3 +20,9 @@ const message = cmjs.replaceHolders('Hello %1', 'World')
 console.log(message)
 // => Hello World
 ```
+
+You can also save all your messages before start using them, check the example below
+
+```javascript
+cmjs.
+```
