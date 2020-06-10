@@ -6,7 +6,7 @@ npm i cm-js
 ```
 
 ```javascript
-const cmjs = require('cm-js')
+const cmjs = require('@fagnersales/cm-js')
 ```
 
 ### List of methods to use:
@@ -14,7 +14,7 @@ const cmjs = require('cm-js')
 replaceHolders - Create custom messages with placeholders
 
 ```javascript
-const cmjs = require('cm-js')
+const cmjs = require('@fagnersales/cm-js')
 
 const message = cmjs.replaceHolders('Hello %1', 'World')
 console.log(message)
